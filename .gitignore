@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -7,6 +8,13 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+>>>>>>> 8c4ff41 (first commit)
 .Python
 build/
 develop-eggs/
@@ -20,12 +28,16 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 share/python-wheels/
+=======
+>>>>>>> 8c4ff41 (first commit)
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
+<<<<<<< HEAD
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -137,6 +149,10 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+=======
+# Virtual Environment
+.env
+>>>>>>> 8c4ff41 (first commit)
 .venv
 env/
 venv/
@@ -144,6 +160,7 @@ ENV/
 env.bak/
 venv.bak/
 
+<<<<<<< HEAD
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -205,3 +222,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# VS Code
+.vscode/
+*.code-workspace
+
+# Project Data & Artifacts
+data/
+data_processed/
+results/
+artifacts/
+
+# Large Data Files in root (if any)
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# Keep sample submission if needed, otherwise ignore
+!sampleSubmission.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Logs
+*.log
+>>>>>>> 8c4ff41 (first commit)
