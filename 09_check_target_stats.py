@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 train = pd.read_csv('data/train.csv')
 print("Engagement Stats:")
 print(train['engagement'].describe())
